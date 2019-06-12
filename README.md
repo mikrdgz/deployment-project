@@ -15,3 +15,10 @@ Sometimes your code needs to be provided sensitive information. In our server, w
 * Make sure you have a mongodb database setup with the connection string
 * put your database url in the env file and config var
 
+# Deployment
+* Have an account with Heroku
+* Create an application with a unique name
+* Connect your github account to Heroku and link to your fork of this repo
+* Deploy your code to Heroku from github
+* Setup the config vars for mongodburi and SECRET
+
